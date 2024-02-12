@@ -30,6 +30,7 @@ module.exports = {
         "my-pink": "#C14482",
         yellow: "#EDBA05",
         grey: "grey",
+        blue:"#6CB4EE",
       },
 
       fontFamily: {
