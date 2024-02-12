@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-   "build": " npx tailwindcss -i ./src/input.css -o ./dist/style.css ",
-   "watch": " npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch"
-
+    "build": " npx tailwindcss -i ./src/input.css -o ./dist/style.css ",
+    "watch": " npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch"
   },
   "repository": {
     "type": "git",
@@ -20,6 +19,7 @@
   },
   "homepage": "https://github.com/safaehamri/tailwind-project-last#readme",
   "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
     "tailwindcss": "^3.4.1"
   }
 }
