@@ -1,0 +1,25 @@
+{
+  "name": "tailwind-project-last",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   "build": " npx tailwindcss -i ./src/input.css -o ./dist/style.css ",
+   "watch": " npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/safaehamri/tailwind-project-last.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/safaehamri/tailwind-project-last/issues"
+  },
+  "homepage": "https://github.com/safaehamri/tailwind-project-last#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
