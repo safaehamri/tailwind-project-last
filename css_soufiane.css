@@ -1,0 +1,63 @@
+.rounded-custom {
+  border-top-left-radius: 100px;
+  border-end-end-radius: 100px;
+}
+
+#bttn-form {
+  transition: all 0.4s;
+}
+
+#bttn-form:hover {
+  border-radius: 5px;
+  transform: translateY(-10px);
+  box-shadow: 0 7px 0 -2px #bfb8f4, 0 15px 0 -4px #957ad6,
+    0 16px 10px -3px #1b2030;
+}
+
+#arrow-down {
+  animation: arrowDown 1s infinite;
+}
+
+@keyframes arrowDown {
+  0%,
+  100% {
+    bottom: 0;
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+/* customize the scrollbar */
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ddd;
+  /* scrollbar's backgrnd color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #bfb8f4;
+  /* scrollbar's color  */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #9884fc;
+  /* scrollbar's color while hover */
+}
+
+/* scrolling to top */
+#bttn-to-up {
+  transition: 0.3s linear;
+}
+
+.show-me {
+  right: 20px;
+}
+
+.hide-me {
+  right: -40px;
+}
