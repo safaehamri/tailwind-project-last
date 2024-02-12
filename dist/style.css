@@ -762,6 +762,10 @@ video {
   height: auto;
 }
 
+.min-h-40 {
+  min-height: 10rem;
+}
+
 .min-h-\[10rem\] {
   min-height: 10rem;
 }
@@ -772,10 +776,6 @@ video {
 
 .min-h-\[60vh\] {
   min-height: 60vh;
-}
-
-.min-h-40 {
-  min-height: 10rem;
 }
 
 .w-1\/2 {
@@ -1011,6 +1011,11 @@ video {
   background-color: rgb(252 165 165 / var(--tw-bg-opacity));
 }
 
+.bg-slate-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
 .bg-violet-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(196 181 253 / var(--tw-bg-opacity));
@@ -1024,11 +1029,6 @@ video {
 .bg-yellow-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(253 224 71 / var(--tw-bg-opacity));
-}
-
-.bg-slate-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-0 {
@@ -1069,6 +1069,10 @@ video {
      object-fit: contain;
 }
 
+.p-10 {
+  padding: 2.5rem;
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -1087,10 +1091,6 @@ video {
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
 }
 
 .px-3 {
@@ -1143,6 +1143,10 @@ video {
   padding-bottom: 2rem;
 }
 
+.pb-11 {
+  padding-bottom: 2.75rem;
+}
+
 .pl-8 {
   padding-left: 2rem;
 }
@@ -1157,10 +1161,6 @@ video {
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pb-11 {
-  padding-bottom: 2.75rem;
 }
 
 .text-left {
@@ -1181,10 +1181,6 @@ video {
 
 .font-orbitron {
   font-family: Orbitron, sans-serif;
-}
-
-.font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .text-2xl {
