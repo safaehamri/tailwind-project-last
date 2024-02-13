@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+
   content: ["./*.html"],
+
+  darkMode:'class',
+
   theme: {
     extend: {
       colors: {
@@ -15,6 +19,7 @@ module.exports = {
         "color-violet-move": "#a33b8e",
         "color-voiler-degree-move": "#957ad6",
         "color-pinky": "#c14482",
+        "color-title":"#7c7a7b",
         "color-green-littelDark": "#7e7e7f",
         "color-section-collaborat": "#bc74fa",
         white: "#fff",
@@ -31,6 +36,9 @@ module.exports = {
         yellow: "#EDBA05",
         grey: "grey",
         blue:"#6CB4EE",
+        "gradient-start": "#FF007A",
+        "gradient-mid": "#8A4D76",
+        "gradient-end": "#FF98A8",
       },
 
       fontFamily: {
@@ -58,8 +66,7 @@ module.exports = {
           "linear-gradient(90deg, rgba(191,184,244,1) 0%, rgba(183,114,255,1) 35%, rgba(193,68,130,1) 100%)",
       },
     },
+   
     plugins: [require("@tailwindcss/forms")],
   },
 };
-
-// content: ["./*.html"],

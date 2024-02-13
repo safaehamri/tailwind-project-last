@@ -1,9 +1,12 @@
-const mycart = document.getElementById("cart");
+const openModalButton = document.getElementById("openModalButton");
+const closeModalButton = document.getElementById("closeModalButton");
+const modal = document.getElementById("modal");
 
 
-mycart.addEventListener(onmouseover,showDetails(document.getElementById('cn').textContent, '180$', '250$', '3k students') );
 
-mycart.addEventListener(onmouseout,hideModal() );
+closeModalButton.addEventListener('click', function() {
+    hideModal();
+});
 
 function showDetails(courseName, price, discountedPrice, students) {
     document.getElementById('courseName').innerText = `Course: ${courseName}`;
@@ -11,9 +14,10 @@ function showDetails(courseName, price, discountedPrice, students) {
     document.getElementById('discountedPrice').innerText = `Discounted Price: ${discountedPrice}`;
     document.getElementById('students').innerText = `Students: ${students}`;
 
-    document.getElementById('modal').classList.remove('hidden');
+    modal.classList.remove('hidden');
 }
 
 function hideModal() {
-    document.getElementById('modal').classList.add('hidden');
+    modal.classList.add('hidden');
 }
+

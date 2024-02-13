@@ -7,8 +7,7 @@
     <link href="./dist/style.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">   
 
-    <!-- <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> -->
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
@@ -26,7 +25,8 @@
     <link rel="stylesheet" href="css_soufiane.css">
 
 </head>
-<body   class="bg-color-primary   font-orbitron">
+<!--  class="bg-color-primary dark:bg-red-8-900 transition-colors duration-300   font-orbitron" -->
+<body   >
 
     <!-- <style>
         @keyframes loop-scroll {
@@ -50,7 +50,7 @@
             <h3 class="text-color-pinky "><span class="text-color-violet-move">skills</span>Bot</h3>
           </div>
     
-          <div class="navlinks  md:static absolute md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center  px-5">
+          <div class=" navlinks  md:static absolute md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center  px-5">
              <ul class="flex text-color-green-littelDark md:flex-row flex-col items-center mx-auto  md:gap[8vw] gap-8">
                 <li><a class="hover:text-color-violet-move hover:border-b hover:scale-125 hover:text-text-color-violet-move
                       border-b-color-violet-move py-2 " href="#">Courses</a></li>
@@ -63,35 +63,44 @@
                
              </ul>
           </div>
-          <div class="flex items-center gap-6">
-            <button class=" text-color-green-littelDark rounded-2xl border border-color-voiler-degree-move font-bold px-5 hover:bg-color-voiler-degree-move hover:text-white hover:scale-110 duration-300">SignIn</button>
+          <div class="flex items-center  mx-3 gap-6">
+            <button class=" text-color-green-littelDark rounded-2xl border border-color-voiler-degree-move font-bold px-5 hover:bg-gradient-to-r from-gradient-start via-gradient-mid to-gradient-end hover:text-white hover:scale-110 duration-300">SignIn</button>
             <ion-icon onclick="ontoggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
           </div>
+          
         </nav>
     
     </header>
     <!--End navbar-->
-    <section id="hero"   class="bg-black">
-        <div class="container  justify-between mx-auto px-6  space-x-6 flex flex-col-reverse md:flex-row ">
+    <section id="hero">
+        <div class="container  justify-between mx-auto px-6  space-x-20 gap-8 flex flex-col-reverse md:flex-row ">
           <div class="md:w-1/2 animate__animated  animate__bounceInLeft flex flex-col justify-center space-y-5 py-8 text-center md:text-left ">
-              <h1 class=" font-bold  text-white landing-5 text-3xl md:text-5xl py-2 ">Develop your <br> skills in a new <br>and unique way</h1>
-              <p class="py-4 text-white  font-orbitron">Your express gateway to game development mastery<br> empowering talents with immersive learning at Skills Bot Academy.</p>
-              <a href="#" class="py-2 font-orbitron px-5 rounded-full self-center md:self-start text-white bg-color-voiler-degree-move hover:scale-110 duration-300">Get Started</a>
+              <h1 class=" font-bold   text-color-grey landing-5 text-3xl md:text-5xl py-2 ">Develop your <br> skills in a new <br>and unique way</h1>
+              <p class="py-4 text-color-green-littelDark font-orbitron">Your express gateway to game development mastery<br> empowering talents with immersive learning at Skills Bot Academy.</p>
+              <a href="#" class="py-2 font-orbitron px-5 rounded-full self-center md:self-start text-white bg-gradient-to-r from-gradient-start via-gradient-mid to-gradient-end hover:scale-110 duration-300">Get Started</a>
               </div>
             
               <div  class="md:w-1/2 animate__animated  animate__fadeIn relative ">
                   <div class="absolute top-8 left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob">
       
                   </div>
-                  <div class="absolute top-8 right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-2000">
+                  <div class="absolute top-8 left-8 right-2 w-72 h-72 bg-yellow-500 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-2000">
       
                   </div>
       
-                  <div class="absolute top-6 bottom-8 left-20 w-72 h-72 bg-red-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-4000">
+                  <div class="absolute top-6 bottom-2  w-72 h-72 bg-yellow rounded-full mix-blend-multiply filter blur-xl opacity-40 animate-blob animation-delay-4000">
+      
+                  </div>
+
+                  <div class="absolute  bottom-5  w-72 h-72 bg-red-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-4000">
+      
+                  </div>
+
+                  <div class="absolute  bottom-5 left-12 w-72 h-72 bg-color-violet-light rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-4000">
       
                   </div>
                   
-                  <img src="./dist/img/dd.png" title="game" class="rounded-md z-10 relative">
+                  <img src="./dist/img/GAME.png" title="game" class="rounded-md z-10 relative p[-6px]">
               </div>
       
       
@@ -102,8 +111,8 @@
       </section>
 
       <!--End section Hero-->
-<section   class="bg-color-section-collaborat py-6 md:h-25 ">
-    <div class="container space-x-16 mx-auto flex flex-col md:flex-row justify-center items-center animate-loop-scroll">
+<section   class="bg-gradient-to-r from-gradient-start via-gradient-mid to-gradient-end py-6 md:h-25  ">
+    <div class="container space-x-16 mx-auto flex flex-col md:flex-row justify-center items-center ">
         <div class="flex flex-col md:flex-row m-3 md:space-x-8 px-8 m-5 text-white justify-center items-center  ">
             <!-- First line -->
             <a href="#" class="mb-2 md:mb-0 md:mr-2 order-2 md:order-1 max-w-none"><ion-icon name="logo-microsoft"></ion-icon>Microsoft</a>
@@ -122,8 +131,8 @@
     <div class="container mx-auto  pt-6 ">
     
         <!-- search -->
-        <div class="container w-1/2 "   >
-           <h1 class="text-center font-mono font-bold text-xl text-blue-800"> Search  Courses : </h1>
+        <div class="container w-1/2 my-3 ">
+           <h1 class="text-center font-mono font-bold text-xl text-blue-800 my-5"> Search  Courses  </h1>
            
            <div class="w-full">
             
@@ -135,8 +144,8 @@
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
                             </svg>
                         </div>
-                        <input type="search" id="default-search" class=" hover:bg-violet-200  block w-full p-4 ps-10 text-sm   rounded-lg bg-gray-50 focus:ring-blue-500  dark:placeholder-gray-400 dark:text-black  placeholder="Search For  over 50+ Courses..." required>
-                        <button type="submit" class="text-white absolute end-2.5 bottom-2.5  bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
+                        <input type="search" id="default-search" class=" hover:bg-violet-200  block w-full p-4 ps-10 text-sm   rounded-lg bg-light-gray  focus:outline-none dark:placeholder-gray-400 dark:text-black  placeholder="Search For  over 50+ Courses..." required>
+                        <button type="submit" class="text-white absolute end-2.5 bottom-2.5  bg-gradient-to-r from-gradient-start via-gradient-mid to-gradient-end hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
                     </div>
                 </form>
 
@@ -160,7 +169,7 @@
             <div class=" p-4  w-full md:w-1/2  text-center  ">
 
                 
-                <h2 class="mb-2 text-2xl font-semibold text-left text-blue-800  "><span class="text-fuchsia-500">Benefits</span> from our online learning </h2>
+                <h2 class="mb-2 text-2xl font-semibold text-left text-blue-800  "><span class="text-fuchsia-500">Benefits</span> from our online <br>learning </h2>
 
 
                 <!-- list  -->
@@ -175,21 +184,21 @@
                     <li class="flex items-center p-2" data-aos="zoom-in-up">
                         <img class="h-auto max-w-10 rounded-lg" src="./dist/img/open-book.png" alt="image description">
                         <div class="pl-8" >
-                            <h5 class="font-mono font-bold text-left text-blue-800 ">Online degrees</h4>
+                            <h5 class="font-mono font-bold text-left text-blue-800 ">Short Courses</h4>
                             <p class="text-left">Earn accridited degrees from the confort of your home .</p>
                         </div>
                     </li>
                     <li class="flex items-center p-2" data-aos="zoom-in-up">
                         <img class="h-auto max-w-10 rounded-lg" src="./dist/img/play.png" alt="image description">
                         <div class="pl-8">
-                            <h5 class="font-mono font-bold text-left text-blue-800 ">Online degrees</h4>
+                            <h5 class="font-mono font-bold text-left text-blue-800 ">Traning From Expert</h4>
                             <p class="text-left">Earn accridited degrees from the confort of your home .</p>
                         </div>
                     </li>
                     <li class="flex items-center p-2" data-aos="zoom-in-up">
                         <img class="h-auto max-w-10 rounded-lg" src="./dist/img/user (1).png" alt="image description">
                         <div class="pl-8">
-                            <h5 class="font-mono font-bold text-left text-blue-800 ">Online degrees</h4>
+                            <h5 class="font-mono font-bold text-left text-blue-800 ">1.5K Video Courses</h4>
                             <p class="text-left">Earn accridited degrees from the confort of your home , opening doors to a world  of possibilities.</p>
                         </div>
                     </li>
@@ -203,145 +212,174 @@
 
     </div>
     <!-- section yamna -->
-    <section  class="  gap-10 min-w-[80rem] min-h-[40rem] bg-gradient-to-r from-fuchsia-500 via-purple-400 to-pink-300 flex items-center justify-center"> 
-        <div class="flex flex-col">
-         <div class="flex flex-col items-center justify-center text-white m-7">
-             <h1 class="text-2xl font-mono">Our popular courses</h1>
-             <p class="text-sm font-mono">Discover our courses with our best coaches.join as programmer programmer
-             </br> Discover our courses with our best coaches. be the bs programmer</br>
-                 Discover our courses with our best coaches.
-             </p>
-         </div>
-        <div class="flex flex-wrap gap-10">
- 
-        
-         <div  data-aos="zoom-in" data-aos-duration="1000" id="cart"  class=" p-3 bg-white  w-72 min-h-[10rem] shadow-lg rounded-3xl overflow-hidden" onmouseout="hideModal()" onmouseover="showDetails('Complete C# Unity Game Developer 2D/3D', '180$', '250$', '3k students')">
-             <!-- <div id="cart"  class=" p-3 bg-white  w-72 min-h-[10rem] shadow-lg rounded-3xl overflow-hidden" > -->
- 
-             <img class="rounded-3xl" src="./dist/img/image3.jpg" alt="">
-             <div class="p-3 flex-col gap-3">
-                 <div class="flex items-center gap-2">
-                     <span class="px-3 py-1 bg-violet-300 rounded-full text-xs">web design</span>
-                     <span class="px-3 py-1 bg-violet-300 rounded-full text-xs">python</span>
-                 </div>
-                 <h1 id="cn" class="text-start text-xl font-semibold">Complete C# Unity Game Developer 2D/3D
-                 </h1>
- 
-                 <div>
-                     <span class="text-xl font-bold">200$</span>
-                 </div>
-                 <div class="">
-                     <span class="text-sm line-through opacity-50">300$</span>
-                 </div>
- 
-                 <span class="flex items-center mt-1 w-4 h-4">
-                    <img src="./dist/img/star.png" alt="">
-                     <img src="./dist/img/star.png" alt="">
-                     <img src="./dist/img/star.png" alt="">
-                     <img src="./dist/img/star.png" alt="">
-                     <img src="./dist/img/star.png" alt="">
-                     <span class="text-xs w-9  text-gray-400">
-                         2kstudents</span>
-                 </span>
-             </div>
-             
-           
-         </div>
-         <div data-aos="zoom-in" data-aos-duration="1000" id="cart"  class="p-3 bg-white  w-72 min-h-[10rem] shadow-lg rounded-3xl overflow-hidden" onmouseout="hideModal()" onmouseover="showDetails('Introduction to Computer Science and Programming Using Python (MIT course)', '1$', '250$', '3k students')">
-             <img class="rounded-3xl" src="./dist/img/image2.jpg" alt="">
-             <div class="p-3 flex-col gap-3">
-                 <div class="flex items-center gap-2">
-                     <span class="px-3 py-1 bg-violet-300 rounded-full text-xs">web design</span>
-                     <span class="px-3 py-1 bg-violet-300 rounded-full text-xs">python</span>
-                 </div>
-                 <h1 id="cn" class="text-start text-xl font-semibold">Introduction to Computer Science and Programming Using Python (MIT course)
-                 </h1>
- 
-                 <div>
-                     <span class="text-xl font-bold">200$</span>
-                 </div>
-                 <div class="">
-                     <span class="text-sm line-through opacity-50">300$</span>
-                 </div>
- 
-                 <span class="flex items-center mt-1 w-4 h-4">
-                     <img src="./dist/img/star.png" alt="">
-                     <img src="./dist/img/star.png" alt="">
-                     <img src="./dist/img/star.png" alt="">
-                     <img src="./dist/img/star.png" alt="">
-                     <img src="./dist/img/star.png" alt="">
-                     <span class="text-xs w-9  text-gray-400">
-                         2kstudents</span>
-                 </span>
-             </div>
-             
-           
-         </div>
-         <div data-aos="zoom-in" data-aos-duration="1000" id="cart" class="p-3 bg-white  w-72 min-h-[10rem] shadow-lg rounded-3xl overflow-hidden" onmouseout="hideModal()" onmouseover="showDetails('Game Design and Development Nanodegree', '180$', '250$', '3k students')">
-             <img class="rounded-3xl" src="./dist/img/image1.jpg" alt="">
-             <div class="p-3 flex-col gap-3">
-                 <div class="flex items-center gap-2">
-                     <span class="px-3 py-1 bg-violet-300 rounded-full text-xs">web design</span>
-                     <span class="px-3 py-1 bg-violet-300 rounded-full text-xs">python</span>
-                 </div>
-                 <h1 id="cn" class="text-start text-xl font-semibold">Game Design and Development Nanodegree </h1>
- 
-                 <div>
-                     <span class="text-xl font-bold">200$</span>
-                 </div>
-                 <div class="">
-                     <span class="text-sm line-through opacity-50">300$</span>
-                 </div>
- 
-                 <span class="flex items-center mt-1 w-4 h-4">
-                    <img src="./dist/img/star.png" alt="">
-                    <img src="./dist/img/star.png" alt="">
-                    <img src="./dist/img/star.png" alt="">
-                    <img src="./dist/img/star.png" alt="">
-                    <img src="./dist/img/star.png" alt="">
-                     <span class="text-xs w-9  text-gray-400">
-                         2kstudents</span>
-                 </span>
-             </div>
-             
-           
-         </div>
-         <div id="modal" class=" p-36  fixed inset-1 bg-black bg-opacity-0 hidden items-center justify-center">
-            <div class= " bg-white w-72 min-h-[10rem] p-6 rounded-lg">
-                <h1 class="text-2xl font-semibold mb-4" id="courseName"></h1>
-                <p class="mb-2" id="price"></p>
-                <p class="mb-2" id="discountedPrice"></p>
-                <p id="students"></p>
-                <button onclick="" class="mt-4 px-4 py-2 bg-blue-500 text-white rounded">Add to cart</button>
+    
+    <section class="p-9 min-w-screen min-h-screen gap-10  bg-gradient-to-r from-gradient-start via-gradient-mid to-gradient-end flex items-center justify-center">
+        <div class="p-2 flex flex-col">
+            <div class="flex flex-col items-center justify-center text-white m-7">
+                <h1 class="text-2xl font-semibold">Our popular courses</h1>
+                <p class="text-sm font-serif">Discover our courses with our best coaches.join as programmer programmer
+                    </br> <span class="text-center">Discover our courses with our best coaches. be the bs programmer</span>
+                </p>
             </div>
-        </div> 6
-    </div>
-         
-     
-         
-     </div>
-     </section>
-       <!-- <section  class="  flex  flex-wrap  min-w-[80rem] min-h-[40rem] bg-slate-100 "> 
-        <div class="p-10 pb-11 items-center justify-center">
-            <img class=" min-h-40 " src="./dist/img/man-removebg-preview.png" alt="">
+           <div class="flex flex-wrap gap-10">
+    
+           
+            <div  data-aos="zoom-in" data-aos-duration="1000" id="cart"  class=" p-3 bg-white  w-72 min-h-[10rem] shadow-lg rounded-3xl overflow-hidden" >
+                <!-- <div id="cart"  class=" p-3 bg-white  w-72 min-h-[10rem] shadow-lg rounded-3xl overflow-hidden" > -->
+    
+                <img class="rounded-3xl" src="./dist/img/image1.jpg" alt="">
+                <div class="p-3 flex-col gap-3">
+                    <div class="flex items-center gap-2">
+                        <span class="px-3 py-1 bg-violet-300 rounded-full text-xs">web design</span>
+                        <span class="px-3 py-1 bg-violet-300 rounded-full text-xs">python</span>
+                    </div>
+                    <h1 id="cn" class="text-start text-xl font-semibold">Complete C# Unity Game Developer  using Python 2D/3D
+                    </h1>
+    
+                    <div>
+                        <span class="text-xl font-bold">200$</span>
+                    </div>
+                    <div class="">
+                        <span class="text-sm line-through opacity-50">300$</span>
+                    </div>
+    
+                    <span class="flex items-center mt-1 w-4 h-4">
+                        <img src="./dist/img/star.png" alt="">
+                        <img src="./dist/img/star.png" alt="">
+                        <img src="./dist/img/star.png" alt="">
+                        <img src="./dist/img/star.png" alt="">
+                        <img src="./dist/img/star.png" alt="">
+                        <span class="text-xs w-9  text-gray-400">
+                            2kstudents</span>
+                    </span>
+                    <button onclick="showDetails('Complete C# Unity Game Developer  using Python 2D/3D', '180$', '250$', '3k students')" id="openModalButton" class="mt-4 px-4 py-2 bg-gradient-to-r from-gradient-start via-gradient-mid to-gradient-end text-white rounded">Show Details</button>
 
-        </div>
-        <div >
-            <h1>If you are a Certified teacher  Then become an instructor </h1>
-            <p>
-                The sun dipped below the horizon, painting the sky in hues of orange and pink.</br>
-                 A gentle breeze whispered through the trees, carrying the scent of blooming flowers. </br>
-                 Birds returned to their nests, their melodic songs fading into the tranquility of the</p>
-        </div>
+                </div>
+                
+              
+            </div>
+            <div data-aos="zoom-in" data-aos-duration="1000" id="cart"  class="p-3 bg-white  w-72 min-h-[10rem] shadow-lg rounded-3xl overflow-hidden" >
+                <img class="rounded-3xl" src="./dist/img/image2.jpg" alt="">
+                <div class="p-3 flex-col gap-3">
+                    <div class="flex items-center gap-2">
+                        <span class="px-3 py-1 bg-violet-300 rounded-full text-xs">web design</span>
+                        <span class="px-3 py-1 bg-violet-300 rounded-full text-xs">python</span>
+                    </div>
+                    <h1 id="cn" class="text-start text-xl font-semibold">Introduction to Computer Science and Programming Using Python (MIT course)
+                    </h1>
+    
+                    <div>
+                        <span class="text-xl font-bold">200$</span>
+                    </div>
+                    <div class="">
+                        <span class="text-sm line-through opacity-50">300$</span>
+                    </div>
+    
+                    <span class="flex items-center mt-1 w-4 h-4">
+                        <img src="./dist/img/star.png" alt="">
+                        <img src="./dist/img/star.png" alt="">
+                        <img src="./dist/img/star.png" alt="">
+                        <img src="./dist/img/star.png" alt="">
+                        <img src="./dist/img/star.png" alt="">
+                        <span class="text-xs w-9  text-gray-400">
+                            2kstudents</span>
+                    </span>
+                    <button onclick="showDetails('Introduction to Computer Science and Programming Using Python (MIT course)', '180$', '250$', '3k students')" id="openModalButton" class="mt-4 px-4 py-2 bg-gradient-to-r from-gradient-start via-gradient-mid to-gradient-end text-white rounded">Show Details</button>
 
+                </div>
+                
+              
+            </div>
+            <div data-aos="zoom-in" data-aos-duration="1000" id="cart" class="p-3 bg-white  w-72 min-h-[10rem] shadow-lg rounded-3xl overflow-hidden" >
+                <img class="rounded-3xl" src="./dist/img/image3.jpg" alt="">
+                <div class="p-3 flex-col gap-3">
+                    <div class="flex items-center gap-2">
+                        <span class="px-3 py-1 bg-violet-300 rounded-full text-xs">web design</span>
+                        <span class="px-3 py-1 bg-violet-300 rounded-full text-xs">python</span>
+                    </div>
+                    <h1 id="cn" class="text-start text-xl font-semibold">Game Design and Development Nanodegree </h1>
+    
+                    <div>
+                        <span class="text-xl font-bold">200$</span>
+                    </div>
+                    <div class="">
+                        <span class="text-sm line-through opacity-50">300$</span>
+                    </div>
+    
+                    <span class="flex items-center mt-1 w-4 h-4">
+                        <img src="./dist/img/star.png" alt="">
+                        <img src="./dist/img/star.png" alt="">
+                        <img src="./dist/img/star.png" alt="">
+                        <img src="./dist/img/star.png" alt="">
+                        <img src="./dist/img/star.png" alt="">
+                        <span class="text-xs w-9  text-gray-400">
+                            2kstudents</span>
+                    </span>
+                    <button onclick="showDetails('Game Design and Development Nanodegree1', '100$', '250$', '20k students')" id="openModalButton" class="mt-4 px-4 py-2 bg-gradient-to-r from-gradient-start via-gradient-mid to-gradient-end text-white rounded">Show Details</button>
+
+                </div>
+
+                
+              
+            </div>
+            <div id="modal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 hidden">
+                <div class="bg-white w-72 min-h-[10rem] p-6 rounded-lg">
+                    <h1 class="text-2xl font-semibold mb-4" id="courseName"></h1>
+                    <p class="mb-2" id="price"></p>
+                    <p class="mb-2" id="discountedPrice"></p>
+                    <p id="students"></p>
+                    <!-- <button id="openModalButton" class="mt-4 px-4 py-2 bg-gradient-to-r from-gradient-start via-gradient-mid to-gradient-end text-white rounded">Open Modal</button> -->
+                    <button onclick="hideModal()" id="closeModalButton" class="mt-4 px-4 py-2 bg-gradient-to-r from-gradient-start via-gradient-mid to-gradient-end text-white rounded">Close</button>
+
+                    <button class="mt-4 px-4 py-2 bg-gradient-to-r from-gradient-start via-gradient-mid to-gradient-end text-white rounded">Add to cart</button>
+                </div>
+            </div>
+        </div>
+            
         
-    </section> -->
+            <!-- <script>
+                function showDetails(courseName, price, discountedPrice, students) {
+                    document.getElementById('courseName').innerText = `Course: ${courseName}`;
+                    document.getElementById('price').innerText = `Price: ${price}`;
+                    document.getElementById('discountedPrice').innerText = `Discounted Price: ${discountedPrice}`;
+                    document.getElementById('students').innerText = `Students: ${students}`;
+    
+                    document.getElementById('modal').classList.remove('hidden');
+                }
+    
+                function hideModal() {
+                    document.getElementById('modal').classList.add('hidden');
+                }
+            </script> -->
+        </div>
+        </section>
+        <section class="flex flex-wrap min-w-screen min-h-screen bg-white items-center justify-center">
+            <!-- transition-transform transform hover:scale-150 -->
+            <div class="p-28   flex items-center  justify-center ">
+                <img class="bg-gradient-to-r from-gradient-start via-gradient-mid to-gradient-end rounded-b-full  scale-100 " src="./dist/img/man-removebg-preview (2).png" alt="">
+            </div>
+            <div class="p-10 text-center">
+                <h1 class="text-3xl font-bold mb-4">If you are a Certified teacher ,</br><span class="text-gradient-mid">Then become an instructor</span> </h1>
+                <p class="text-sm">
+                    The sun dipped below the horizon, painting the sky in hues of orange and pink.<br>
+                    A gentle breeze whispered through the trees, carrying the scent of blooming flowers.<br>
+                    Birds returned to their nests, their melodic songs fading into the tranquility of the
+                </p>
+                <h1 class="text-3xl font-bold mb-4">Enjoy many perks</h1>
+                <p class="text-sm">
+                    The sun dipped below the horizon, painting the sky in hues of orange and pink.<br>
+                    A gentle breeze whispered through the trees, carrying the scent of blooming flowers.<br>
+                </p>
+                <button onclick="" class="w-80 mt-4 px-4 py-2 bg-gradient-to-r from-gradient-start via-gradient-mid to-gradient-end text-white rounded">Become an instructor</button>
+            </div>
+        </section>
+        
 
     <!-- * SOUFIANE -->
     <!-- feedback section -->
-    <section id="feedback" class="bg-gradient-custom"  >
+    <section id="feedback" class="bg-gradient-to-r from-gradient-start via-gradient-mid to-gradient-end"  >
       <!-- container -->
-      <div class="container mx-auto p-6 text-center bg-gradient-custom">
+      <div class="container mx-auto p-6 text-center bg-gradient-to-r from-gradient-start via-gradient-mid to-gradient-end">
         <h2 class="font-bold text-3xl md:text-4xl text-white  mt-20">
           Our Student's Feedback
         </h2>
@@ -453,10 +491,10 @@
     </section>
     <!-- form section -->
     <section id="form" class="-my-2">
-      <div class="mx-auto bg-gradient-custom">
-        <div class="bg-black border border-white rounded-custom">
+      <div class="mx-auto bg-gradient-to-r from-gradient-start via-gradient-mid to-gradient-end">
+        <div class="bg-white border border-white rounded-custom">
           <div
-            class="bg-gradient-custom text-center mx-5 lg:mx-60 my-16 rounded-2xl flex flex-col items-center"
+            class="bg-gradient-to-r from-gradient-start via-gradient-mid to-gradient-end text-center mx-5 lg:mx-60 my-16 rounded-2xl flex flex-col items-center"
           >
             <h2 class="font-bold text-3xl md:text-4xl text-white mt-8">
               Get In Touch!
@@ -484,7 +522,7 @@
       </div>
     </section>
     <!-- footer -->
-    <footer class="bg-gradient-custom mt-2">
+    <footer class="bg-gradient-to-r from-gradient-start via-gradient-mid to-gradient-end mt-2">
       <div
         class="container mx-auto p-6 flex flex-col items-center lg:flex-row space-x-5"
       >
@@ -492,10 +530,7 @@
         <div
           class="lg:w-1/5 flex flex-col lg:space-y-2 lg:mr-10 text-center lg:text-left"
         >
-          <h2 class="text-dark-color text-3xl font-bold">
-            SQG
-            <span class="font-semibold text-dark-color text-xl">Academy</span>
-          </h2>
+        <h3 class="text-color-pinky font-bold text-3xl "><span class="text-color-violet-move">skills</span>Bot</h3>
           <p class="text-sm font-semibold text-light-gray">
             Explore a transformative approach to skill development on our cool
             academy.
@@ -583,6 +618,7 @@
 
     <!--Script Js -->
     <script src="./soufiane_script.js"></script>
+    <!-- <script src="ihssane.js"></script> -->
 <script>
  
       
@@ -604,6 +640,6 @@
     <script>
         AOS.init();
       </script>
-<script src="src/index.js"></script>
+<script src="./src/index.js"></script>
 </body>
 </html>
