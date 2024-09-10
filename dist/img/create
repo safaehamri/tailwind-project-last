@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+        
+      
+</head>
+<body>
+    <nav>
+ <div class="site  content">
+    <a href="/"> <h1>404 NINJA</h1></a>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos labore natus necessitatibus
+         cum assumenda quibusdam vitae eveniet blanditiis quo 
+        quis nostrum iusto nisi et, laborum, in qui. Repudiandae, fuga praesentium!</p>
+ </div>
+ <ul>
+   <li><a href="/">Blogs</a></li>
+   <li><a href="/about">about</a></li>
+   <li><a href="/blogs/create ">new blog</a></li>
+ </ul>
+</nav>
+<div class="not-found-content"> oops page not found </div>
+       
+</body>
+</html>
